@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file>image/ball_gray.png</file>
+    <file>image/ball_green.png</file>
+    <file>image/ball_red.png</file>
+    <file>image/mok_on.png</file>
+    <file>image/spincursor.png</file>
+  </qresource>
+</RCC>

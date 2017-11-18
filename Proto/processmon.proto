@@ -1,0 +1,11 @@
+//心跳消息
+message MonLogMSG
+{
+	optional bytes sHost  = 1;	//标识主机
+	optional bytes sProcess = 2;//标识进程	
+	optional int32 log_state = 3;	//标识状态
+    optional int64 s_time  = 4;//时间
+    optional bytes s_info = 5;//信息,自动重启，手动重启，断言，
+    optional int32 n_type = 6;//扩展数据流类型
+    optional bytes s_data_exten = 7;//扩展数据
+}

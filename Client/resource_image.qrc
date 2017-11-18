@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>resource_image/drawer.png</file>
+        <file>resource_image/menu.png</file>
+        <file>resource_image/Width.png</file>
+        <file>resource_image/Circle.png</file>
+        <file>resource_image/User.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>qss/stylesheet-1.qss</file>
+        <file>qss/coffee.qss</file>
+        <file>qss/pagefold.qss</file>
+        <file>qss/GreeQss.qss</file>
+      <file>qss/abc.qss</file>
+    </qresource>
+</RCC>

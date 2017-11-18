@@ -1,0 +1,134 @@
+QWidget{
+    background:rgba(255, 255, 255, 255);
+}
+
+/*
+QLabel{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 255);
+    qproperty-alignment: AlignCenter;
+}
+*/
+
+QLabel#AntimationLine{
+    background-color: rgba(45, 120, 82, 255);
+}
+QDebugConsole#DebugConsole{
+    background-color: rgba(23, 23, 23, 255);
+}
+
+
+/* ******************QScrollBar****************** */
+QScrollBar:vertical {
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+    background: white;
+}
+QScrollBar::handle:vertical {
+    background: lightgray;
+    min-height: 1px;
+}
+
+QScrollBar::add-line:vertical {
+    height: 1px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    height: 1px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+/*QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    width: 3px;
+    height: 3px;
+    background: #31394E;
+}*/
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+
+QScrollBar:horizontal {
+    background: white;
+    height: 10px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:horizontal {
+    background: lightgray;
+    min-width: 1px;
+}
+QScrollBar::add-line:horizontal {
+    width: 1px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    width: 1px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+/*QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    width: 3px;
+    height: 3px;
+    background: #31394E;
+}*/
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+/* ******************QScrollBar****************** */
+
+/*
+QPushButton{
+   background-color: rgb(45, 120, 82);
+   /*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(45, 120, 82, 255), stop:0.5 rgba(65, 190, 82, 255), stop:1 rgba(65, 118, 82, 255));*/
+
+    /*border: none;
+    color: white;*/
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(76, 148, 31);
+    padding: 1px;
+}
+
+QPushButton:pressed{
+    background-color: rgb(76, 148, 31);
+    color: white;
+}
+
+QPushButton:disabled{
+    background-color: gray;
+}
+
+QPushButton#checkable{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(11, 158, 12, 255), stop:1 rgba(150, 220, 120, 255));
+    border: none;
+    color: white;
+}
+
+QPushButton#checkable:hover{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(11, 158, 12, 255), stop:0.5 rgba(150, 220, 120, 255), stop:1 rgba(11, 158, 12, 255));
+    color: white;
+    border-left: 5px solid rgb(255, 127, 39);
+}
+
+QPushButton#checkable:checked{
+    background-color: rgba(11, 158, 12, 255);
+    color: white;
+    border-left: 5px solid rgb(255, 127, 39);
+}
+
+QPushButton#checkable:pressed{
+    background-color: rgba(11, 158, 12, 255);
+    color: white;
+}
+
+QPushButton#checkable:disabled{
+    background-color: gray;
+}
+*/

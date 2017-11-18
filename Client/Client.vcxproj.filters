@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="进程节点管理">
+      <UniqueIdentifier>{172010cf-edcf-493b-9fb3-9384e4a8568d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共">
+      <UniqueIdentifier>{dc07ba3d-3649-4b08-882a-12ecc2aa380a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Debug">
+      <UniqueIdentifier>{4656f512-6ab9-4a00-9944-e895c6039695}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Release">
+      <UniqueIdentifier>{c5f88d40-19da-4e43-97f5-2c45ba3ff6a8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="redis">
+      <UniqueIdentifier>{da0c9c76-0453-4a08-86ea-c2bdbaf1c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{26764314-3baa-4664-88cb-3451dc7a63da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Client.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Client.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Client.cpp">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainFrame.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainFrame.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainHeader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainHeader.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainHeader.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QAnimalTabWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QAnimalTabWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QAnimalTabWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QCenterWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QCenterWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QCenterWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QDebugConsole.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QDebugConsole.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QDebugConsole.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QFlashlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QFlashlist.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QFlashlist.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QHeaderGround.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QHeaderGround.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QHeaderGround.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QLeftWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QLeftWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QLeftWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QRightAction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QRightAction.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QRightAction.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QSliderButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QSliderButton.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QSliderButton.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RedeMeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RedeMeWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RedeMeWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_resource_image.cpp">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeManager.cpp">
+      <Filter>进程节点管理</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeManager.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeManager.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\nbclock.cpp">
+      <Filter>公共</Filter>
+    </ClCompile>
+    <ClCompile Include="QMontinorRegisterWidget.cpp">
+      <Filter>进程节点管理</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QMontinorRegisterWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QMontinorRegisterWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="8Predis.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+    <ClCompile Include="QRedisCallBack.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QRedisCallBack.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QRedisCallBack.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_bit.cpp">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\StringUtil\stringutil.cpp">
+      <Filter>公共</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProcessLogWidget.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProcessLogWidget.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessLogWidget.cpp">
+      <Filter>进程节点管理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Proto\processmon.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LogItemManager.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LogItemManager.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LogItemManager.cpp">
+      <Filter>进程节点管理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\dahlia_utils.cpp">
+      <Filter>公共</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\wnd_screen_t.cpp">
+      <Filter>公共</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Client.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Client.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Client.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainFrame.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainframe.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainHeader.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainHeader.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QAnimalTabWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QCenterWidget.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QDebugConsole.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QFlashlist.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QHeaderGround.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QHeaderGround.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QLeftWidget.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QLeftWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QRightAction.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QSliderButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RedeMeWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RedeMeWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource_image.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeManager.h">
+      <Filter>进程节点管理</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QMontinorRegisterWidget.h">
+      <Filter>进程节点管理</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QMontinorRegisterWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QRedisCallBack.h">
+      <Filter>redis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bit.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProcessLogWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProcessLogWidget.h">
+      <Filter>进程节点管理</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogItemManager.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogItemManager.h">
+      <Filter>进程节点管理</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_Client.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainframe.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainHeader.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QHeaderGround.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QLeftWidget.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RedeMeWidget.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\nbclock.h">
+      <Filter>公共</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QMontinorRegisterWidget.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="8Predis.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StringUtil\stringutil.h">
+      <Filter>公共</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ProcessLogWidget.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Proto\processmon.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LogItemManager.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\dahlia_utils.h">
+      <Filter>公共</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\wnd_screen_t.h">
+      <Filter>公共</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource_image\drawer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource_image\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource_image\Width.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource_image\Circle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource_image\User.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\stylesheet-1.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\coffee.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\pagefold.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\GreeQss.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\ball_gray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\ball_green.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="image\ball_red.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

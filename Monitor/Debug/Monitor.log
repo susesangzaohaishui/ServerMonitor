@@ -1,0 +1,53 @@
+﻿生成启动时间为 2017-05-05 11:30:52。
+     1>项目“E:\project\ProcessMonitor\Dahlia\Monitor\Monitor.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Monitor.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /I..\Include\AQueueInc /I..\Include\net /I..\Include\StringUtil /I..\Include\AqueueEX /I..\Include\redis /ID:\ZHXT\ZHSFCI\Include\protobuf2.5 /I..\Proto /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt back_repar_t.cpp daemon_instence_t.cpp process_mgr_t.cpp process_node_t.cpp
+         daemon_instence_t.cpp
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_header_t”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(67): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_heart”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(85): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_register”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(103): warning C4091: “typedef ”: 没有声明变量时忽略“redis_process_state”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(111): warning C4091: “typedef ”: 没有声明变量时忽略“monitor_back”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(133): warning C4091: “typedef ”: 没有声明变量时忽略“montior_log_redis”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(146): warning C4091: “typedef ”: 没有声明变量时忽略“opreate_process”的左侧
+         正在生成代码...
+         正在编译...
+         back_repar_t.cpp
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_header_t”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(67): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_heart”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(85): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_register”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(103): warning C4091: “typedef ”: 没有声明变量时忽略“redis_process_state”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(111): warning C4091: “typedef ”: 没有声明变量时忽略“monitor_back”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(133): warning C4091: “typedef ”: 没有声明变量时忽略“montior_log_redis”的左侧
+     1>e:\project\processmonitor\dahlia\include\globaldefine.h(146): warning C4091: “typedef ”: 没有声明变量时忽略“opreate_process”的左侧
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         process_node_t.cpp
+         process_mgr_t.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\project\ProcessMonitor\Dahlia\Monitor\Debug\Monitor.exe) 与 Linker 的 OutputFile 属性值(E:\project\ProcessMonitor\Dahlia\Bin\Monitor.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Monitor.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Lib /LIBPATH:..\Lib\redis AQueue.lib AsynNet.lib HiRedis.lib libprotobuf.lib "libprotobuf-lite.lib" RedisClient.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Monitor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\project\ProcessMonitor\Dahlia\Monitor\Debug\Monitor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\ProcessMonitor\Dahlia\Monitor\Debug\Monitor.lib" /MACHINE:X86 Debug\Monitor.exe.embed.manifest.res
+         Debug\aqueue_manager_t.obj
+         Debug\aqueue_obj_t.obj
+         Debug\dahlia_utils.obj
+         Debug\nbclock.obj
+         Debug\stringutil.obj
+         Debug\wnd_screen_t.obj
+         Debug\processmon.pb.obj
+         Debug\back_repar_t.obj
+         Debug\daemon_instence_t.obj
+         Debug\Monitor.obj
+         Debug\process_mgr_t.obj
+         Debug\process_node_t.obj
+         Debug\redis_client_t.obj
+         Debug\session_server_t.obj
+     1>LINK : fatal error LNK1168: 无法打开 ..\Bin\Monitor.exe 进行写入
+     1>已完成生成项目“E:\project\ProcessMonitor\Dahlia\Monitor\Monitor.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.57

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="异步对象">
+      <UniqueIdentifier>{ebde9d2a-e76a-4e8e-997e-978872a10225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="进程管理">
+      <UniqueIdentifier>{6fd61907-9e7c-45fb-acb2-435fcf0739ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="应用实例">
+      <UniqueIdentifier>{cba6b58b-299f-4af2-bf8b-841dbfe784dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共函数">
+      <UniqueIdentifier>{9bb8c890-4b62-42e3-b3c9-549c325237ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="心跳客户端">
+      <UniqueIdentifier>{4c301b8a-b0ba-4daf-b645-f2e0b4342679}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\AqueueEX\aqueue_manager_t.cpp">
+      <Filter>异步对象</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\AqueueEX\aqueue_obj_t.cpp">
+      <Filter>异步对象</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\dahlia_utils.cpp">
+      <Filter>公共函数</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\StringUtil\stringutil.cpp">
+      <Filter>公共函数</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="session_client_t.cpp">
+      <Filter>心跳客户端</Filter>
+    </ClCompile>
+    <ClCompile Include="client_repar_t.cpp">
+      <Filter>进程管理</Filter>
+    </ClCompile>
+    <ClCompile Include="daemon_client_t.cpp">
+      <Filter>应用实例</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\wnd_screen_t.cpp">
+      <Filter>公共函数</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\AqueueEX\aqueue_manager_t.h">
+      <Filter>异步对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\AqueueEX\aqueue_obj_t.h">
+      <Filter>异步对象</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\dahlia_utils.h">
+      <Filter>公共函数</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StringUtil\stringutil.h">
+      <Filter>公共函数</Filter>
+    </ClInclude>
+    <ClInclude Include="session_client_t.h">
+      <Filter>心跳客户端</Filter>
+    </ClInclude>
+    <ClInclude Include="client_repar_t.h">
+      <Filter>进程管理</Filter>
+    </ClInclude>
+    <ClInclude Include="daemon_client_t.h">
+      <Filter>应用实例</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\wnd_screen_t.h">
+      <Filter>公共函数</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

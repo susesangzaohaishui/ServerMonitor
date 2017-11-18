@@ -1,0 +1,115 @@
+﻿生成启动时间为 2017-05-04 23:12:03。
+     1>项目“E:\project\ProcessMonitor\Dahlia\Client\Client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Uic'ing ProcessLogWidget.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /I..\Include /I..\Include\AQueueInc /I..\Include\net /I..\Include\StringUtil /I..\Include\AqueueEX /I..\Include\redis /ID:\ZHXT\ZHSFCI\Include\protobuf2.5 /I..\Proto /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_ProcessLogWidget.cpp ProcessLogWidget.cpp QMontinorRegisterWidget.cpp main.cpp
+         moc_ProcessLogWidget.cpp
+         ProcessLogWidget.cpp
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_header_t”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(67): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_heart”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(85): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_register”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(103): warning C4091: “typedef ”: 没有声明变量时忽略“redis_process_state”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(111): warning C4091: “typedef ”: 没有声明变量时忽略“monitor_back”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(133): warning C4091: “typedef ”: 没有声明变量时忽略“montior_log_redis”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(146): warning C4091: “typedef ”: 没有声明变量时忽略“opreate_process”的左侧
+         QMontinorRegisterWidget.cpp
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_header_t”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(67): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_heart”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(85): warning C4091: “typedef ”: 没有声明变量时忽略“nodemsg_register”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(103): warning C4091: “typedef ”: 没有声明变量时忽略“redis_process_state”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(111): warning C4091: “typedef ”: 没有声明变量时忽略“monitor_back”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(133): warning C4091: “typedef ”: 没有声明变量时忽略“montior_log_redis”的左侧
+     1>E:\project\ProcessMonitor\Dahlia\Include\globaldefine.h(146): warning C4091: “typedef ”: 没有声明变量时忽略“opreate_process”的左侧
+         main.cpp
+         正在生成代码...
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\Client.exe) 与 Linker 的 OutputFile 属性值(E:\project\ProcessMonitor\Dahlia\Bin\Client.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Client.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:..\Lib /LIBPATH:..\Lib\redis qtmaind.lib QtCored4.lib QtGuid4.lib AQueue.lib HiRedis.lib libprotobuf.lib "libprotobuf-lite.lib" RedisClient.lib WS2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\Client.lib" /MACHINE:X86 Debug\dahlia_utils.obj
+         Debug\nbclock.obj
+         Debug\stringutil.obj
+         Debug\wnd_screen_t.obj
+         Debug\processmon.pb.obj
+         Debug\8Predis.obj
+         Debug\Client.obj
+         Debug\moc_Client.obj
+         Debug\moc_LogItemManager.obj
+         Debug\moc_MainFrame.obj
+         Debug\moc_MainHeader.obj
+         Debug\moc_NodeManager.obj
+         Debug\moc_ProcessLogWidget.obj
+         Debug\moc_QAnimalTabWidget.obj
+         Debug\moc_QCenterWidget.obj
+         Debug\moc_QDebugConsole.obj
+         Debug\moc_QFlashlist.obj
+         Debug\moc_QHeaderGround.obj
+         Debug\moc_QLeftWidget.obj
+         Debug\moc_QMontinorRegisterWidget.obj
+         Debug\moc_QRedisCallBack.obj
+         Debug\moc_QRightAction.obj
+         Debug\moc_QSliderButton.obj
+         Debug\moc_RedeMeWidget.obj
+         Debug\qrc_bit.obj
+         Debug\qrc_Client.obj
+         Debug\qrc_resource_image.obj
+         Debug\LogItemManager.obj
+         Debug\main.obj
+         Debug\MainFrame.obj
+         Debug\MainHeader.obj
+         Debug\NodeManager.obj
+         Debug\ProcessLogWidget.obj
+         Debug\QAnimalTabWidget.obj
+         Debug\QCenterWidget.obj
+         Debug\QDebugConsole.obj
+         Debug\QFlashlist.obj
+         Debug\QHeaderGround.obj
+         Debug\QLeftWidget.obj
+         Debug\QMontinorRegisterWidget.obj
+         Debug\QRedisCallBack.obj
+         Debug\QRightAction.obj
+         Debug\QSliderButton.obj
+         Debug\RedeMeWidget.obj
+         LINK : 没有找到 ..\Bin\Client.exe 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\Client.lib 和对象 E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\Client.exp
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(coded_stream.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(common.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(common.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(descriptor.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(descriptor.pb.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(descriptor_database.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(dynamic_message.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(extension_set.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(extension_set_heavy.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(generated_message_reflection.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(generated_message_util.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(message.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(message_lite.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(once.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(once.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(atomicops_internals_x86_msvc.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(reflection_ops.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(repeated_field.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(structurally_valid.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strutil.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(strutil.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(substitute.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(substitute.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(text_format.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(text_format.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(tokenizer.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(unknown_field_set.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(wire_format.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(wire_format_lite.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(zero_copy_stream.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl_lite.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(stringprintf.obj)”或在“E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Client.vcxproj -> E:\project\ProcessMonitor\Dahlia\Client\Win32\Debug\Client.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Bin\Client.exe;#1" /manifest Debug\Client.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Client.unsuccessfulbuild”。
+         正在对“Debug\Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\project\ProcessMonitor\Dahlia\Client\Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.71
